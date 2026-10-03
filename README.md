@@ -6,7 +6,7 @@ The official **Standard Library (`Snova.Std`)** for the Snovalang programming la
 
 Every function, method, struct, class, and property in `Snova.Std` is documented using the standard Snovalang Doc format:
 
-```snova
+```snl
 /* -- Doc:{funcName}
  *
  * -- Description: Explains what the declaration does and how it behaves.
@@ -33,7 +33,7 @@ Every function, method, struct, class, and property in `Snova.Std` is documented
 
 Verify syntax and structure using `snovac`:
 ```bash
-for f in src/*/*.snova; do
+for f in src/*/*.snl; do
     snovac --check-parse "$f"
 done
 ```
